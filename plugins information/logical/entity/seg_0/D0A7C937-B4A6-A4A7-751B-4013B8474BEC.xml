@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0A7C937-B4A6-A4A7-751B-4013B8474BEC" name="COMPANY">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<commentInRDBMS>Describtion of a company. </commentInRDBMS>
+<generatorID>BD23C30D-17BC-47E6-8992-E06512383106</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PI COMPANIES</preferredAbbreviation>
+<shortName>COM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAME" id="3F56769B-650A-A389-5810-FDE44EB36BDA">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Name of the company.</comment>
+<commentInRDBMS>Name of the company.</commentInRDBMS>
+<generatorID>CA1B5C29-7B70-88F4-91B8-FE0322452208</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="INTERNAL COMPANY NAME" id="43C4209C-CBDD-8AAE-A998-00046248FB8C">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Company specific part of the internal plugin name used by the company.</comment>
+<commentInRDBMS>Company specific part of the internal plugin name used by the company.</commentInRDBMS>
+<generatorID>AE9A3CA7-73CD-69E0-1464-2D4C05F7F6D5</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="ID" id="DC41714E-867E-FD82-D950-9C8C92FE045E">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Unique identifier.</comment>
+<commentInRDBMS>Unique identifier.</commentInRDBMS>
+<generatorID>DBE93298-AA1B-8738-F5FB-8C506196EE70</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<sourceType>Derived</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A2B007A8-1C01-49DD-E844-C1DEB402E838</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="903BF89C-C8A8-736E-512F-BBFAAB9775BF" name="PI COM PK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<generatorID>04378C77-656E-6D50-0CEA-E52614269AA5</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC41714E-867E-FD82-D950-9C8C92FE045E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

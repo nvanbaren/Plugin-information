@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="plugins information" id="6A7B751E-AD41-E228-788F-4EDE1BD56A36" version="3.5">
+<createdBy>nicolette</createdBy>
+<createdTime>2012-06-30 19:21:35 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6A7B751E-AD41-E228-788F-4EDE1BD56A36</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="56F61236-EE79-B06B-727E-37EB9FE67B71">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5149B2BF-E243-3A33-67EF-2A7B55B812EC">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E3E7CA4B-8C72-0A0C-C967-2F698DFEB272">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="318FE9AC-87B2-2280-DEE2-7F8199EAA636">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2B106407-977D-2EA1-0C3F-9D1888D64107">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F5851C2B-42D9-0743-25ED-92D1A8EB9AAD">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="478C4728-D921-A979-321D-1AD1210079B9">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="286CFB07-40C7-E598-AF2D-A6BE8D611C9F">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="62C3520C-4CE1-E4BF-CDB0-A6E6D40594CD">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8E005AA6-F3B9-30FC-919E-A300147A9354">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8A8751D9-E0EC-CCE8-36EF-9BC3A214672B">
+<designStoragePath>X:\Datamodeler\design</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

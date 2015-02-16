@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="414946AD-0F68-9B8E-7C0E-9330D6FECDA9" name="PI_PLUGIN_AUTHORS">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLUGIN_AUTHORS</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:15 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>7FD72D3D-5F0A-A9D4-DC97-E231D13031B1</importedID>
+<abbreviation>PLA</abbreviation>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLU_ID" id="893C628B-FE21-FD39-A00A-D065686EB054">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGIN_AUTHORS</sourceObjSchema>
+<sourceObjName>PLU_ID</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Unique identifier.</comment>
+<commentInRDBMS>Unique identifier.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>874726B8-BC1E-1109-BAFD-AFF290E52E0C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D778D180-B834-DBF3-C65C-C3EB6B517C8A</domain>
+<delegate>AAE481F6-DDA0-9FAE-1DBB-7477221CF910</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PI_PLA_PLU_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="EF690A9C-61D1-8801-ADD3-6D08165A6FA0" referredColumn="AAE481F6-DDA0-9FAE-1DBB-7477221CF910"/>
+</associations>
+</Column>
+<Column name="AUT_ID" id="85021620-472D-EE10-61D6-2A72302775A3">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGIN_AUTHORS</sourceObjSchema>
+<sourceObjName>AUT_ID</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Unique identifier.</comment>
+<commentInRDBMS>Unique identifier.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>1D83C5D7-6C1E-ED06-51C8-5779A44EE3ED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D778D180-B834-DBF3-C65C-C3EB6B517C8A</domain>
+<delegate>5DDB7215-944B-54CB-59B4-29BDCC73FF03</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PI_PLA_AUT_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6D9ED4DB-F1FA-C9BD-F1DD-9271D1D81927" referredColumn="5DDB7215-944B-54CB-59B4-29BDCC73FF03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77DEB388-1D16-ABF8-9A09-237601807123" name="PI_PLA_PK">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLUGIN_AUTHORS__FK_I</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>8542F983-9A7C-E7CE-27CD-970BEB0DDCF5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893C628B-FE21-FD39-A00A-D065686EB054"/>
+<colUsage columnID="85021620-472D-EE10-61D6-2A72302775A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74F47ADB-4A88-734E-715C-054996161DBF" name="PI_PLA_I1">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLUGIN_AUTHORS__FK_I</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>D02A074D-70B2-192D-9408-5D3BA9E54EEA</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893C628B-FE21-FD39-A00A-D065686EB054"/>
+<colUsage columnID="85021620-472D-EE10-61D6-2A72302775A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68C569CC-8A7C-1CBA-FAC3-68459E375483" name="PI_PLA_PLU_FK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893C628B-FE21-FD39-A00A-D065686EB054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77E67455-DB4C-E183-0306-8BED02C9B160" name="PI_PLA_AUT_FK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 20:32:43 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85021620-472D-EE10-61D6-2A72302775A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

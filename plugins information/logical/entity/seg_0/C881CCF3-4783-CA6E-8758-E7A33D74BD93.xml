@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C881CCF3-4783-CA6E-8758-E7A33D74BD93" name="PLUGIN">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Plugin basic information.</comment>
+<commentInRDBMS>Plugin basic information.</commentInRDBMS>
+<generatorID>EF20BA9A-58E6-8A3B-098C-CA8351B68E31</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PI PLUGINS</preferredAbbreviation>
+<shortName>PLU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INTERNAL NAME" id="47B125D9-7ADC-F4ED-8CC4-321B360AF209">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Internal name of the plugin.</comment>
+<commentInRDBMS>Internal name of the plugin.</commentInRDBMS>
+<generatorID>CAD84F4F-6426-B767-223B-376B58460ED2</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<domain>34443A6D-F78E-26AB-BFFA-01D003BAF1ED</domain>
+</Attribute>
+<Attribute name="INTERNAL COMPANY NAME" id="953CF23A-A704-FDF0-401C-72ED6E028F18">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Company part of the internal name. Used to identify the author and company.</comment>
+<commentInRDBMS>Company part of the internal name. Used to identify the author and company.</commentInRDBMS>
+<generatorID>828CAD2D-63F4-B8DC-885F-B84D565ADFBC</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<domain>34443A6D-F78E-26AB-BFFA-01D003BAF1ED</domain>
+</Attribute>
+<Attribute name="PLUGIN TYPE" id="BD760F55-6F43-D8C2-03A2-827094655333">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>The component type of the plugin.</comment>
+<commentInRDBMS>The component type of the plugin.</commentInRDBMS>
+<generatorID>F4C4A809-2D2D-A763-C8F5-FC3D62016EA4</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<constraintName>SYS_C0061434</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>DB553A18-6280-2FF1-4CFD-29D3C5A048AF</domain>
+<listOfValues>
+<valueDef value="&apos;D&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+<valueDef value="&apos;R&apos;" description=""/>
+</listOfValues>
+</Attribute>
+<Attribute name="DISPLAY NAME" id="3E5DDDBD-7221-9D55-32E0-3C11158F09A6">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Name that is displayed to the user.</comment>
+<commentInRDBMS>Name that is displayed to the user.</commentInRDBMS>
+<generatorID>5C00294D-315F-13BB-738F-68DA10DF9496</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="APPLICATION" id="45EA71D9-0B00-E1BE-B426-C32F357C36DF">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>The application alias of the application that demo&apos;s the plugin.</comment>
+<commentInRDBMS>The application alias of the application that demo&apos;s the plugin.</commentInRDBMS>
+<generatorID>8DCF1209-EBC8-A36C-97F3-F86B91CFF8D7</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="INFORMATION" id="EC5C1EC7-25BD-67C3-F2C2-3B0658C39104">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Additional information about the plugin.</comment>
+<commentInRDBMS>Additional information about the plugin.</commentInRDBMS>
+<generatorID>6EE833BE-FE84-8831-1EEF-CA10D8912FC1</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="ID" id="34605ED1-3F08-9A4E-40C6-1A5D156E56CA">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Unique identifier.</comment>
+<commentInRDBMS>Unique identifier.</commentInRDBMS>
+<generatorID>AAE481F6-DDA0-9FAE-1DBB-7477221CF910</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<sourceType>Derived</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A2B007A8-1C01-49DD-E844-C1DEB402E838</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC00BCEB-5EBD-6322-89C9-C6EFAC928EFA" name="PI PLU PK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<generatorID>42F7DB7A-DE64-7F43-93B0-A77E0134BF15</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34605ED1-3F08-9A4E-40C6-1A5D156E56CA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2D535160-A094-90F2-DF39-86B261E1BF1C" name="PI PLU UK1">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<generatorID>3F714CBF-7678-9F4A-99C7-58C86FB29461</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>47B125D9-7ADC-F4ED-8CC4-321B360AF209</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

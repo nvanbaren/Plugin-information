@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<metadatadoc version="2.0">
+   <site name="DB2/UDB 9" type="10" oid="112220E5-3DBD-675C-4CE0-50DE0C486937" pathid="10"/>
+   <site name="PI_OWNER" type="8" oid="52EE1FB1-7FA2-0A73-D287-009974AE26F8" pathid="11"/>
+</metadatadoc>

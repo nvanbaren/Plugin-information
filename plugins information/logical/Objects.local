@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="96DB0A7D-474C-36B1-1AE2-788246A768E9" name="WEBSITES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C881CCF3-4783-CA6E-8758-E7A33D74BD93" name="PLUGIN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D0A7C937-B4A6-A4A7-751B-4013B8474BEC" name="COMPANY" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F138288E-EE0F-968B-59BF-B9F9C5597BF0" name="AUTHOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F53FAC84-0144-A20F-29FB-D69F4057ADD7" name="KEYWORD" seqName="seg_0"/>
+   <object objectType="Relation" objectID="03C6500B-B433-B405-E42E-576F13B8B52B" name="PI_AUT_COM_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="27542483-F861-7211-1491-F016618895DB" name="PI_PLUGIN_COMPANIES" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2E715597-C9D0-DF24-8731-2DFE3EDB6DCC" name="PI_PLUGIN_KEYWORDS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7C4A2E76-00B4-EEB5-15EA-3974908BCD5F" name="PI_AUTHOR_WEBSITES" seqName="seg_0"/>
+   <object objectType="Relation" objectID="85BA1D50-1ADB-5B1D-3084-B732FBC152DD" name="PI_PLUGIN_AUTHORS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A31B55A0-4037-6375-52C5-F2CFEDA5FF65" name="PI_COMPANY_WEBSITES" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F071E864-E8FE-3EE9-A4A8-34A9AA1A80A6" name="PI_PLUGIN_WEBSITES" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

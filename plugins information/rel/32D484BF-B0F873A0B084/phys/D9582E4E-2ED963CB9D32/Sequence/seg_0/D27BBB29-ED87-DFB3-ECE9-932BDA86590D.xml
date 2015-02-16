@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="KEY_SEQ_1" directorySegmentName="seg_0" id="D27BBB29-ED87-DFB3-ECE9-932BDA86590D">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjName>KEY_SEQ_1</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:12:56 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<cache>20</cache>
+<incrementBy>1</incrementBy>
+<maxValue>99999999</maxValue>
+<minValue>1</minValue>
+<order>YES</order>
+<user>313710E0-86F2-2A89-60B0-C13430365F31</user>
+</SequenceOraclev10g>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>
+   <object objectType="TSpace" objectID="63B50CDF-745C-7C63-1E52-969E05CE6BF0" name="PIIDX" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="7926ADE6-6D2A-8F10-430F-A8BE28C8BA17" name="PIDAT" seqName="seg_0"/>
+   <object objectType="User" objectID="313710E0-86F2-2A89-60B0-C13430365F31" name="PI_OWNER" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="Table" objectID="1E12047F-5A4F-E6DA-4E45-11B92BDB4F14" name="PI_PLUGIN_KEYWORDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="414946AD-0F68-9B8E-7C0E-9330D6FECDA9" name="PI_PLUGIN_AUTHORS" seqName="seg_0"/>
+   <object objectType="Table" objectID="5DD550C6-A70F-B244-C9D0-608BCCEA0077" name="PI_PLUGIN_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="6ED7011F-FE02-8532-8F0B-007DC6E3D7B9" name="PI_PLUGIN_COMPANIES" seqName="seg_0"/>
+   <object objectType="Table" objectID="80856BDF-A0C2-9B49-33A6-5939EB0774B2" name="PI_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="89DF26C5-297E-649F-3592-D5FE8AA4F1F9" name="PI_KEYWORDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="922006B4-DB27-27F5-A51B-BB2BB9A7ACC2" name="PI_COMPANY_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="947B753C-20BA-1FA6-C199-962518F434F1" name="PI_AUTHORS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD23C30D-17BC-47E6-8992-E06512383106" name="PI_COMPANIES" seqName="seg_0"/>
+   <object objectType="Table" objectID="CA8A50D8-DF3F-7B75-0BA8-08408970BB09" name="PI_AUTHOR_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="EF20BA9A-58E6-8A3B-098C-CA8351B68E31" name="PI_PLUGINS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="396582EE-8FED-B01F-6C8A-AFF6F39DB379" name="Storage2" seqName="seg_0"/>
+   <object objectType="Segment" objectID="D896A9F5-EB6B-4AEC-4352-A5D08BBFE5DC" name="Storage1" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="384EDD0B-2F24-D2FC-32A5-A50B8305B7F7" name="COM_SEQ_1" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="A4EF367B-3F09-B219-0CCA-3EFA9618CB02" name="PLU_SEQ_1" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="BF2E60BB-7328-FFEC-40C3-4A6DBFEC9D04" name="WEB_SEQ_1" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="D1BC1866-8A23-A057-4F4A-F84FB5870AC8" name="AUT_SEQ_1" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="D27BBB29-ED87-DFB3-ECE9-932BDA86590D" name="KEY_SEQ_1" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="1EFE5F4E-933F-365E-A741-094A6A9986F4" name="COM_COM_ID_TRG" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="5F17AB19-55AA-CB4C-AE19-06CBFE4E48B1" name="KEY_KEY_ID_TRG" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="B13B8F6A-E0C5-CE92-CC1E-E63D5D89BC88" name="WEB_WEB_ID_TRG" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="B98751E5-C7FA-2B6C-66E2-641151EC5525" name="AUT_AUT_ID_TRG" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="D3BCDBFF-E9F4-F5DF-4C32-7433AFDAD35E" name="PLU_PLU_ID_TRG" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v10g.StorageDesignOraclev10g>

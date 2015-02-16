@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PI_PLUGIN_COMPANIES" directorySegmentName="seg_0" id="27542483-F861-7211-1491-F016618895DB">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<generatorID>6ED7011F-FE02-8532-8F0B-007DC6E3D7B9</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C881CCF3-4783-CA6E-8758-E7A33D74BD93</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0A7C937-B4A6-A4A7-751B-4013B8474BEC</targetEntity>
+<transferable>true</transferable>
+</Relation>

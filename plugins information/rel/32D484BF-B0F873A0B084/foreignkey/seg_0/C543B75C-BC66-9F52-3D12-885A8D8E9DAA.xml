@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C543B75C-BC66-9F52-3D12-885A8D8E9DAA" name="PI_COW_COM_FK">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_FK_ASS_4</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>3DC5D069-0C56-CCA0-1583-F2298CEAACF8</importedID>
+<containerWithKeyObject>922006B4-DB27-27F5-A51B-BB2BB9A7ACC2</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>3B7BE63A-D829-EFC0-BCE0-6ED486BDF226</localFKIndex>
+<keyObject>04378C77-656E-6D50-0CEA-E52614269AA5</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

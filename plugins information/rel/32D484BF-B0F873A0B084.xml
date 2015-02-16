@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Plugin information" id="32D484BF-7EA7-375A-3FA8-B0F873A0B084" mainViewID="8AD8DF80-06EC-CDD2-2EE3-068BCF96FC9E">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-02 20:23:30 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
+<redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>pi_owner</connName>
+<connUrl>jdbc:oracle:thin:@localhost:1521:xe</connUrl>
+<connUser>pi_owner</connUser>
+<connType>1</connType>
+<syncSelected>-1</syncSelected>
+</redirectConnectionStamp>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>pi_owner</connName>
+<connUrl>jdbc:oracle:thin:@localhost:1521:xe</connUrl>
+<connUser>pi_owner</connUser>
+<connType>1</connType>
+<syncSelected>1</syncSelected>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

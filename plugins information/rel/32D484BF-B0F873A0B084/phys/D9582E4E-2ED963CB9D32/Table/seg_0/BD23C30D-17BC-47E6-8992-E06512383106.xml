@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="PI_COMPANIES" directorySegmentName="seg_0" id="BD23C30D-17BC-47E6-8992-E06512383106">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PI_COM_I1" id="CF2B6498-756D-E132-6B04-55573A271F1D">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<sortedRows>REVERSE</sortedRows>
+<tableSpace>63B50CDF-745C-7C63-1E52-969E05CE6BF0</tableSpace>
+<user>313710E0-86F2-2A89-60B0-C13430365F31</user>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INTERNAL_COMPANY_NAME" id="AE9A3CA7-73CD-69E0-1464-2D4C05F7F6D5">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="CA1B5C29-7B70-88F4-91B8-FE0322452208">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="DBE93298-AA1B-8738-F5FB-8C506196EE70">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PI_COM_PK" id="04378C77-656E-6D50-0CEA-E52614269AA5">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

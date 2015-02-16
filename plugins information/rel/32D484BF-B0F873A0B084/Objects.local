@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="82958ABD-3B0B-1393-9EC9-0A4B813A8EC1" name="PI_OWNER" seqName="seg_0"/>
+   <object objectType="SchemaObject" objectID="AC91D1C6-4625-33C1-0A76-86B24686A3DF" name="MDSYS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1E12047F-5A4F-E6DA-4E45-11B92BDB4F14" name="PI_PLUGIN_KEYWORDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="414946AD-0F68-9B8E-7C0E-9330D6FECDA9" name="PI_PLUGIN_AUTHORS" seqName="seg_0"/>
+   <object objectType="Table" objectID="5DD550C6-A70F-B244-C9D0-608BCCEA0077" name="PI_PLUGIN_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="6ED7011F-FE02-8532-8F0B-007DC6E3D7B9" name="PI_PLUGIN_COMPANIES" seqName="seg_0"/>
+   <object objectType="Table" objectID="80856BDF-A0C2-9B49-33A6-5939EB0774B2" name="PI_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="89DF26C5-297E-649F-3592-D5FE8AA4F1F9" name="PI_KEYWORDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="922006B4-DB27-27F5-A51B-BB2BB9A7ACC2" name="PI_COMPANY_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="947B753C-20BA-1FA6-C199-962518F434F1" name="PI_AUTHORS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD23C30D-17BC-47E6-8992-E06512383106" name="PI_COMPANIES" seqName="seg_0"/>
+   <object objectType="Table" objectID="CA8A50D8-DF3F-7B75-0BA8-08408970BB09" name="PI_AUTHOR_WEBSITES" seqName="seg_0"/>
+   <object objectType="Table" objectID="EF20BA9A-58E6-8A3B-098C-CA8351B68E31" name="PI_PLUGINS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="063D01E7-38C6-3211-2112-4EFF5909DBED" name="PI_PLC_COM_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="157660FC-7BF0-7EDC-405B-46E3DA2859F4" name="PI_AUW_AUT_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2C08B1BC-A171-518C-0886-369E42730837" name="PI_PLK_KEY_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6D9ED4DB-F1FA-C9BD-F1DD-9271D1D81927" name="PI_PLA_AUT_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6EB29728-ACE5-EC0E-F382-394CE3C0FA5A" name="PI_PLC_PLU_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8A97130E-CC1A-A623-1C90-44597B81AC96" name="PI_PLK_PLU_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8F25B333-56BB-226D-2D01-8C9F2ECB4B02" name="PI_AUW_WEB_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A417DE93-C4A4-EBE1-F8CE-D996F78235D0" name="PI_PLW_WEB_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B0D12290-3B25-42E9-A377-0C7FB2BAD815" name="PI_PLW_PLU_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C543B75C-BC66-9F52-3D12-885A8D8E9DAA" name="PI_COW_COM_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EB33893A-6D1A-EBE5-518B-A1E503D13E00" name="PI_COW_WEB_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EF690A9C-61D1-8801-ADD3-6D08165A6FA0" name="PI_PLA_PLU_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F90E0171-799D-1EFA-D8B6-3FA5873BEFC0" name="PI_AUT_COM_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96DB0A7D-474C-36B1-1AE2-788246A768E9" name="WEBSITES">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<commentInRDBMS>Websites for links to demo sites, blogs or compony sites</commentInRDBMS>
+<generatorID>80856BDF-A0C2-9B49-33A6-5939EB0774B2</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PI WEBSITES</preferredAbbreviation>
+<shortName>WEB</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="URL" id="B0CA899D-97AD-BD85-A8AD-249DAC850D31">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Url of the webstite.</comment>
+<commentInRDBMS>Url of the webstite.</commentInRDBMS>
+<generatorID>7F208606-055C-14EE-671C-928DD99AE488</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<domain>34443A6D-F78E-26AB-BFFA-01D003BAF1ED</domain>
+</Attribute>
+<Attribute name="SITE TYPE" id="4C31E801-EA91-009F-79B0-751BA1BC3CB3">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>The type of website.</comment>
+<commentInRDBMS>The type of website.</commentInRDBMS>
+<generatorID>381F94B5-52E5-E77E-2810-082BFC62CA3A</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>EAD1BDFE-0BE7-7153-032A-D14CAC23EF5C</domain>
+</Attribute>
+<Attribute name="NAME" id="B3129407-4EDB-4BC4-052E-D7A83B895B5A">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Name of the site.</comment>
+<commentInRDBMS>Name of the site.</commentInRDBMS>
+<generatorID>8FEFE451-E1EB-44B8-B604-17B7858F779C</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="FULL URL" id="E2F14AC9-277A-C3BB-282D-91E0E77FE9CB">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Full url of the site.</comment>
+<commentInRDBMS>Full url of the site.</commentInRDBMS>
+<generatorID>4757E561-2B11-727A-E2F7-F4FD5C797182</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<domain>34443A6D-F78E-26AB-BFFA-01D003BAF1ED</domain>
+</Attribute>
+<Attribute name="ID" id="C5631B69-4E12-F4ED-BD4F-82F023C8A2E6">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<comment>Unique identifier.</comment>
+<commentInRDBMS>Unique identifier.</commentInRDBMS>
+<generatorID>9D828EF8-3E21-2D5C-AA6A-ADC263EDE436</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="true"/>
+</engineerTo>
+<sourceType>Derived</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A2B007A8-1C01-49DD-E844-C1DEB402E838</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C228EEBF-5E4C-890B-4E70-486F1A3B4CCD" name="PI WEB PK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-06 22:47:56 UTC</createdTime>
+<generatorID>46B33625-9DC3-F51A-B832-50F109E91E15</generatorID>
+<ownerDesignName>plugins information</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32D484BF-7EA7-375A-3FA8-B0F873A0B084" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5631B69-4E12-F4ED-BD4F-82F023C8A2E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

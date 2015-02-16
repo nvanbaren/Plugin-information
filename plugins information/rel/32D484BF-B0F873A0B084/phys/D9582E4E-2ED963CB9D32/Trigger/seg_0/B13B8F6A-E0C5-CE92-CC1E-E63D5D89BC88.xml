@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="WEB_WEB_ID_TRG" directorySegmentName="seg_0" id="B13B8F6A-E0C5-CE92-CC1E-E63D5D89BC88">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>WEB_WEB_ID_TRG</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:12:56 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  SELECT WEB_SEQ_1.NEXTVAL INTO :NEW.ID FROM DUAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.ID IS NULL</condition>
+<owner>313710E0-86F2-2A89-60B0-C13430365F31</owner>
+<table>80856BDF-A0C2-9B49-33A6-5939EB0774B2</table>
+</TriggerOraclev10g>

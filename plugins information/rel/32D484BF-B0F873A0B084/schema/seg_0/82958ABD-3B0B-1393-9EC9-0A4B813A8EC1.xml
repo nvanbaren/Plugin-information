@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="PI_OWNER" directorySegmentName="seg_0" id="82958ABD-3B0B-1393-9EC9-0A4B813A8EC1">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-02 21:50:59 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</SchemaObject>
