@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="PI_WEBSITES" directorySegmentName="seg_0" id="80856BDF-A0C2-9B49-33A6-5939EB0774B2">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>7926ADE6-6D2A-8F10-430F-A8BE28C8BA17</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<user>313710E0-86F2-2A89-60B0-C13430365F31</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PI_WEB_I1" id="0AC2509C-62B3-C110-017B-55C34B742A33">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<sortedRows>REVERSE</sortedRows>
+<tableSpace>63B50CDF-745C-7C63-1E52-969E05CE6BF0</tableSpace>
+<user>313710E0-86F2-2A89-60B0-C13430365F31</user>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SITE_TYPE" id="381F94B5-52E5-E77E-2810-082BFC62CA3A">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FULL_URL" id="4757E561-2B11-727A-E2F7-F4FD5C797182">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="URL" id="7F208606-055C-14EE-671C-928DD99AE488">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="8FEFE451-E1EB-44B8-B604-17B7858F779C">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="9D828EF8-3E21-2D5C-AA6A-ADC263EDE436">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PI_WEB_PK" id="46B33625-9DC3-F51A-B832-50F109E91E15">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:10:51 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

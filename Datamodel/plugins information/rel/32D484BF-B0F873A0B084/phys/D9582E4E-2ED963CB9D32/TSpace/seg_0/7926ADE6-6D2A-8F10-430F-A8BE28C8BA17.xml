@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="PIDAT" directorySegmentName="seg_0" id="7926ADE6-6D2A-8F10-430F-A8BE28C8BA17">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjName>PIDAT</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-09 22:12:43 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<dsInitialExtent>163840</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<dsNextExtent>163840</dsNextExtent>
+<emLocalSubtype>UNIFORM</emLocalSubtype>
+<emUniformSize>163840</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>163840</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<fileType>SMALLFILE</fileType>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="%ORACLE_DATABASE%PIDAT01.DBF" id="13F54DF3-912F-55D1-F298-A53820CF5F0B">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjName>C:\ORACLEXE\APP\ORACLE\PRODUCT\10.2.0\SERVER\DATABASE\%ORACLE_DATABASE%PIDAT01.DBF</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-20 22:31:10 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<autoextend>OFF</autoextend>
+<fileName>C:\ORACLEXE\APP\ORACLE\PRODUCT\10.2.0\SERVER\DATABASE\%ORACLE_DATABASE%PIDAT01.DBF</fileName>
+<nextBlockSize>0</nextBlockSize>
+<size>102408</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>

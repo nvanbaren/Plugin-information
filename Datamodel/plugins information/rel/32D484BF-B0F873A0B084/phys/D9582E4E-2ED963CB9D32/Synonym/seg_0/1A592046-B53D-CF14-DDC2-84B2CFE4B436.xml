@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SynonymOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="pi_plugins" directorySegmentName="seg_0" id="1A592046-B53D-CF14-DDC2-84B2CFE4B436">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-18 22:08:09 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<object>pi_plugins</object>
+<objectUser>313710E0-86F2-2A89-60B0-C13430365F31</objectUser>
+<user>313710E0-86F2-2A89-60B0-C13430365F31</user>
+</SynonymOraclev10g>

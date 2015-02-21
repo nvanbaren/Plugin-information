@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF20BA9A-58E6-8A3B-098C-CA8351B68E31" name="PI_PLUGINS">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLUGINS</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Plugin basic information.</comment>
+<commentInRDBMS>Plugin basic information.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>6D901EC6-BF3D-D19C-43D3-8100B3528EAA</importedID>
+<abbreviation>PLU</abbreviation>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERNAL_NAME" id="CAD84F4F-6426-B767-223B-376B58460ED2">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGINS</sourceObjSchema>
+<sourceObjName>INTERNAL_NAME</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Internal name of the plugin.</comment>
+<commentInRDBMS>Internal name of the plugin.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>4818342B-E15F-6174-135D-4A59C1481584</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<domain>34443A6D-F78E-26AB-BFFA-01D003BAF1ED</domain>
+<defaultdisplayAs>Combo Box</defaultdisplayAs>
+<defaultHelpText>Internal name of the plugin.</defaultHelpText>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PI_PLU_INTERNAL_NAME_NNC</notNullConstraintName>
+</Column>
+<Column name="INTERNAL_COMPANY_NAME" id="828CAD2D-63F4-B8DC-885F-B84D565ADFBC">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGINS</sourceObjSchema>
+<sourceObjName>INTERNAL_COMPANY_NAME</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Company part of the internal name. Used to identify the author and company.</comment>
+<commentInRDBMS>Company part of the internal name. Used to identify the author and company.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>E7DD5C3D-2F04-9420-C67C-E4082E810DB3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<domain>34443A6D-F78E-26AB-BFFA-01D003BAF1ED</domain>
+<defaultHelpText>Company part of the internal name. Used to identify the author and company.</defaultHelpText>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PI_PLU_INTERNAL_COMPANY_NAME_NNC</notNullConstraintName>
+</Column>
+<Column name="PLUGIN_TYPE" id="F4C4A809-2D2D-A763-C8F5-FC3D62016EA4">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGINS</sourceObjSchema>
+<sourceObjName>PLUGIN_TYPE</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>The component type of the plugin.</comment>
+<commentInRDBMS>The component type of the plugin.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>D7B1E1A9-D3E2-CFF7-B26D-D7391A183953</importedID>
+<constraintName>SYS_C0061434</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<domain>DB553A18-6280-2FF1-4CFD-29D3C5A048AF</domain>
+<listOfValues>
+<valueDef value="&apos;D&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+<valueDef value="&apos;R&apos;" description=""/>
+</listOfValues>
+<defaultHelpText>The component type of the plugin.</defaultHelpText>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PI_PLU_PLUGIN_TYPE_NNC</notNullConstraintName>
+</Column>
+<Column name="DISPLAY_NAME" id="5C00294D-315F-13BB-738F-68DA10DF9496">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGINS</sourceObjSchema>
+<sourceObjName>DISPLAY_NAME</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Name that is displayed to the user.</comment>
+<commentInRDBMS>Name that is displayed to the user.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>F4C73C98-5BC9-CB1E-F082-BDBF0276FF9B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<defaultHelpText>Name that is displayed to the user.</defaultHelpText>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPLICATION" id="8DCF1209-EBC8-A36C-97F3-F86B91CFF8D7">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGINS</sourceObjSchema>
+<sourceObjName>APPLICATION</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>The application alias of the application that demo&apos;s the plugin.</comment>
+<commentInRDBMS>The application alias of the application that demo&apos;s the plugin.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>263C0789-C1A6-741F-A9F3-0AA9EF2D3D17</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<defaultHelpText>The application alias of the application that demo&apos;s the plugin.</defaultHelpText>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION" id="6EE833BE-FE84-8831-1EEF-CA10D8912FC1">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGINS</sourceObjSchema>
+<sourceObjName>INFORMATION</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Additional information about the plugin.</comment>
+<commentInRDBMS>Additional information about the plugin.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>773D40E7-9FA8-B241-B56C-B42287CA7A52</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 CHAR</dataTypeSize>
+<defaultHelpText>Additional information about the plugin.</defaultHelpText>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="AAE481F6-DDA0-9FAE-1DBB-7477221CF910">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_PLUGINS</sourceObjSchema>
+<sourceObjName>PLU_ID</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<comment>Unique identifier.</comment>
+<commentInRDBMS>Unique identifier.</commentInRDBMS>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>34C71F9A-61D9-1910-502E-6EE9C93B26C7</importedID>
+<sourceType>Derived</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A2B007A8-1C01-49DD-E844-C1DEB402E838</domain>
+<defaultHelpText>Unique identifier.</defaultHelpText>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PI_PLU_SEQ_1</autoIncrementSequenceName>
+<autoIncrementTriggerName>PI_PLU_ID_TRG</autoIncrementTriggerName>
+<notNullConstraintName>PI_PLU_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42F7DB7A-DE64-7F43-93B0-A77E0134BF15" name="PI_PLU_PK">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLU_PK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>DB3AD5E7-9D7F-60F1-6EAF-A020D831E2FA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE481F6-DDA0-9FAE-1DBB-7477221CF910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F714CBF-7678-9F4A-99C7-58C86FB29461" name="PI_PLU_UK1">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLU_UK1</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>695D8F94-90D0-D403-B34A-B5086DA9B1F2</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAD84F4F-6426-B767-223B-376B58460ED2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="169F36D6-209B-5A45-D23F-29F72B4DF3FC" name="PI_PLU_I1">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLU_PK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>6444CAC7-C90C-4CC9-1EDD-98FAE1D1DAEC</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE481F6-DDA0-9FAE-1DBB-7477221CF910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="553B1E76-63CF-6B6C-A54B-CF974409415E" name="PI_PLU_I2">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjSchema>PI_OWNER</sourceObjSchema>
+<sourceObjName>PI_PLU_UK1</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-05 19:45:16 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<importedID>4E524355-CFC0-78B5-1724-BC5E6C2377D7</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAD84F4F-6426-B767-223B-376B58460ED2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
