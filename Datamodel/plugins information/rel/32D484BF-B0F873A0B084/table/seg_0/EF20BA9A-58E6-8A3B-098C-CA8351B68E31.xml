@@ -151,8 +151,8 @@
 <defaultHelpText>Unique identifier.</defaultHelpText>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>PLU_SEQ_1</autoIncrementSequenceName>
-<autoIncrementTriggerName>PLU_PLU_ID_TRG</autoIncrementTriggerName>
+<autoIncrementSequenceName>PI_PLU_SEQ_1</autoIncrementSequenceName>
+<autoIncrementTriggerName>PI_PLU_ID_TRG</autoIncrementTriggerName>
 <notNullConstraintName>PI_PLU_ID_NNC</notNullConstraintName>
 </Column>
 </columns>

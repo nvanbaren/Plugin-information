@@ -1,8 +1,30 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="PIIDX" directorySegmentName="seg_0" id="63B50CDF-745C-7C63-1E52-969E05CE6BF0">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjName>PIIDX</sourceObjName>
 <createdBy>nicolette</createdBy>
 <createdTime>2015-02-09 22:22:11 UTC</createdTime>
 <ownerDesignName>plugins information</ownerDesignName>
-<emUniformSize>0</emUniformSize>
+<dsInitialExtent>163840</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<dsNextExtent>163840</dsNextExtent>
+<emLocalSubtype>UNIFORM</emLocalSubtype>
+<emUniformSize>163840</emUniformSize>
 <extentManagement>LOCAL</extentManagement>
+<minExtLen>163840</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<fileType>SMALLFILE</fileType>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="%ORACLE_DATABASE%PIIDX01.DBF" id="EB310ABB-C304-8EE6-01C5-6560B6A4D078">
+<sourceConnName>pi_owner</sourceConnName>
+<sourceObjName>C:\ORACLEXE\APP\ORACLE\PRODUCT\10.2.0\SERVER\DATABASE\%ORACLE_DATABASE%PIIDX01.DBF</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-02-20 22:31:10 UTC</createdTime>
+<ownerDesignName>plugins information</ownerDesignName>
+<autoextend>OFF</autoextend>
+<fileName>C:\ORACLEXE\APP\ORACLE\PRODUCT\10.2.0\SERVER\DATABASE\%ORACLE_DATABASE%PIIDX01.DBF</fileName>
+<nextBlockSize>0</nextBlockSize>
+<size>51208</size>
+</DataFile>
+</dataFiles>
 </TableSpaceOraclev10g>

@@ -6,7 +6,9 @@
 <schemaObject>82958ABD-3B0B-1393-9EC9-0A4B813A8EC1</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>7926ADE6-6D2A-8F10-430F-A8BE28C8BA17</tableSpace>
 <temporaryChanged>false</temporaryChanged>
+<user>313710E0-86F2-2A89-60B0-C13430365F31</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <indexProxies>

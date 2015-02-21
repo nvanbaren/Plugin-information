@@ -46,8 +46,8 @@
 <domain>A2B007A8-1C01-49DD-E844-C1DEB402E838</domain>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>KEY_SEQ_1</autoIncrementSequenceName>
-<autoIncrementTriggerName>KEY_KEY_ID_TRG</autoIncrementTriggerName>
+<autoIncrementSequenceName>PI_KEY_SEQ_1</autoIncrementSequenceName>
+<autoIncrementTriggerName>PI_KEY_ID_TRG</autoIncrementTriggerName>
 <notNullConstraintName>PI_KEY_ID_NNC</notNullConstraintName>
 </Column>
 </columns>

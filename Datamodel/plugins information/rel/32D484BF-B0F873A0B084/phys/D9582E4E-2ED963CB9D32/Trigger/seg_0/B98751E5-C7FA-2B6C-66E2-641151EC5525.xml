@@ -1,15 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="AUT_AUT_ID_TRG" directorySegmentName="seg_0" id="B98751E5-C7FA-2B6C-66E2-641151EC5525">
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PI_AUT_ID_TRG" directorySegmentName="seg_0" id="B98751E5-C7FA-2B6C-66E2-641151EC5525">
 <sourceConnName>pi_owner</sourceConnName>
 <sourceObjSchema>PI_OWNER</sourceObjSchema>
-<sourceObjName>AUT_AUT_ID_TRG</sourceObjName>
+<sourceObjName>PI_AUT_ID_TRG</sourceObjName>
 <createdBy>nicolette</createdBy>
 <createdTime>2015-02-09 22:12:56 UTC</createdTime>
 <ownerDesignName>plugins information</ownerDesignName>
 <actions>INSERT</actions>
-<body>BEGIN&lt;br/&gt;  SELECT AUT_SEQ_1.NEXTVAL INTO :NEW.ID FROM DUAL;&lt;br/&gt;END;</body>
+<body>begin&lt;br/&gt;  SELECT PI_AUT_SEQ_1.NEXTVAL INTO :NEW.ID FROM DUAL;&lt;br/&gt;end;</body>
 <triggerTime>BEFORE</triggerTime>
-<condition>NEW.ID IS NULL</condition>
 <owner>313710E0-86F2-2A89-60B0-C13430365F31</owner>
 <table>947B753C-20BA-1FA6-C199-962518F434F1</table>
 </TriggerOraclev10g>

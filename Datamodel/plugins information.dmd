@@ -39,5 +39,11 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8A8751D9-E0EC-CCE8-36EF-9BC3A214672B">
 <designStoragePath>X:\Datamodeler\design</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1D85A73A-0219-228C-C8CF-00E05E86BF7F">
+<designStoragePath>D:\Nicolette\Projecten\Plugin-information\Datamodel</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7CCC367F-367D-75B5-FEBD-14A496D6BACF">
+<designStoragePath>D:\Nicolette\Projecten\Plugin-information\Datamodel</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

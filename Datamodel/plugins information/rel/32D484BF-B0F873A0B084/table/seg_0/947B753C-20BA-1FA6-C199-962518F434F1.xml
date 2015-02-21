@@ -54,8 +54,8 @@
 <defaultReadOnly>true</defaultReadOnly>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>AUT_SEQ_1</autoIncrementSequenceName>
-<autoIncrementTriggerName>AUT_AUT_ID_TRG</autoIncrementTriggerName>
+<autoIncrementSequenceName>PI_AUT_SEQ_1</autoIncrementSequenceName>
+<autoIncrementTriggerName>PI_AUT_ID_TRG</autoIncrementTriggerName>
 <notNullConstraintName>PI_AUT_ID_NNC</notNullConstraintName>
 </Column>
 <Column name="COM_ID" id="698D4D0B-5411-61E4-D146-16F22C2DEF8B">
